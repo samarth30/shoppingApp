@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:background="@drawable/welcome"
+    >
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:src="@drawable/applogo"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/app_sloagan"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Find, Discover, Choose and Buy anything online"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_logo" />
+
+    <Button
+        android:id="@+id/main_login_button"
+        android:layout_width="312dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/buttons"
+        android:padding="20dp"
+        android:text="Already Have an Account? Login"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="RtlHardcoded"
+        android:focusableInTouchMode="true"
+        />
+
+    <Button
+        android:id="@+id/main_join_now_button"
+        android:layout_width="312dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/input_design"
+        android:padding="20dp"
+        android:text="Allready Have an Account? Login"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:clickable="true"
+        android:focusableInTouchMode="true"
+        android:textSize="18sp"
+        android:filterTouchesWhenObscured="true"
+        android:gravity="center_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="RtlHardcoded" />
+
+</android.support.constraint.ConstraintLayout>

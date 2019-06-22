@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1044533069773",
+    "firebase_url": "https://shoppingapp-cf7f0.firebaseio.com",
+    "project_id": "shoppingapp-cf7f0",
+    "storage_bucket": "shoppingapp-cf7f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044533069773:android:0271884fa33a8f92",
+        "android_client_info": {
+          "package_name": "com.example.dell.shoppingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1044533069773-29dc38hn3e22r80t26ourrntvokr9rac.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.shoppingapp",
+            "certificate_hash": "8ce83b15899275045b9816d3b4654d4613db6346"
+          }
+        },
+        {
+          "client_id": "1044533069773-k6qq74l8hd4vs9n2kjv5kg9i06p9eeip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm2TUEDVynzwh5ML9dI0kOsPD-ir2QDnA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1044533069773-k6qq74l8hd4vs9n2kjv5kg9i06p9eeip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
