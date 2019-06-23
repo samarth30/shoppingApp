@@ -117,7 +117,6 @@ public class AdminAddNewProductActivity extends AppCompatActivity {
          }else{
              StoreProductInformation();
          }
-
     }
 
     private void StoreProductInformation() {
